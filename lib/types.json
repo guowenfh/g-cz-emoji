@@ -1,0 +1,98 @@
+[
+  {
+    "emoji": "🐛",
+    "code": ":bug:",
+    "description": "修复 Bug",
+    "name": "fix"
+  },
+  {
+    "emoji": "✨",
+    "code": ":sparkles:",
+    "description": "引入新特性",
+    "name": "feat"
+  },
+  {
+    "emoji": "♻️",
+    "code": ":recycle:",
+    "description": "重构代码",
+    "name": "refactor"
+  },
+  {
+    "emoji": "📝",
+    "code": ":pencil:",
+    "description": "写文档",
+    "name": "docs"
+  },
+  {
+    "emoji": "🔩",
+    "code": ":nut_and_bolt:",
+    "description": "杂事修改",
+    "name": "chore"
+  },
+  {
+    "emoji": "✅",
+    "code": ":white_check_mark:",
+    "description": "添加测试用例",
+    "name": "test"
+  },
+  {
+    "emoji": "⚡️",
+    "code": ":zap:",
+    "description": "性能优化",
+    "name": "perf"
+  },
+  {
+    "emoji": "💄",
+    "code": ":lipstick:",
+    "description": "更新UI和样式文件",
+    "name": "ui"
+  },
+  {
+    "emoji": "🎨",
+    "code": ":art:",
+    "description": "改进代码的结构/格式",
+    "name": "style"
+  },
+  {
+    "emoji": "🚧",
+    "code": ":construction:",
+    "description": "正在进行中的工作",
+    "name": "wip"
+  },
+  {
+    "emoji": "🎉",
+    "code": ":tada:",
+    "description": "初始化提交",
+    "name": "init"
+  },
+  {
+    "emoji": "🔖",
+    "code": ":bookmark:",
+    "description": "发布版本",
+    "name": "release"
+  },
+  {
+    "emoji": "🔧",
+    "code": ":wrench:",
+    "description": "修改配置文件",
+    "name": "config"
+  },
+  {
+    "emoji": "🔀",
+    "code": ":twisted_rightwards_arrows:",
+    "description": "合并分支",
+    "name": "merge"
+  },
+  {
+    "emoji": "💩",
+    "code": ":poop:",
+    "description": "写了一些屎一样待优化的代码",
+    "name": "poo"
+  },
+  {
+    "emoji": "🔥",
+    "code": ":fire:",
+    "description": "移除代码/文件",
+    "name": "prune"
+  }
+]
