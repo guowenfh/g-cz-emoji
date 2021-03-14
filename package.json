@@ -1,6 +1,6 @@
 {
   "name": "g-cz-emoji",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "中文版本符合 Angular commit 规范的 git-cz emoji 提示",
   "author": "guowen.chenguowen",
   "license": "MIT",

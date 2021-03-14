@@ -22,6 +22,8 @@ npm install --global g-cz-emoji
 
 # 设置为项目的默认适配器
 echo '{ "path": "g-cz-emoji" }' > ~/.czrc
+# 作者的配置
+echo '{ "path": "g-cz-emoji", "config": { "g-cz-emoji": { "skipQuestions": [ "issues", "body" ] } } }' > ~/.czrc
 ```
 
 **本地**
@@ -50,7 +52,6 @@ $ git cz
 
 默认情况下，`g-cz-emoji` 已经可用。对于不同用户使用方法可能有所不同，因此有一些配置选项可以根据项目需要进行微调。
 作者在项目中的配置如下：
-` { "g-cz-emoji": { "skipQuestions": [ "issues", "body" ] }`
 
 ### 如何使用
 
@@ -187,13 +188,9 @@ fix: 🐛  fix a bug
 }
 ```
 
-## Examples
-
-- https://github.com/Falieson/TRAM
-
 ## Commitlint
 
-Commitlint can be set to work with this package by leveraging the package https://github.com/arvinxx/commitlint-config-gitmoji.
+Commitlint 可以使用这个包来进行设置 https://github.com/arvinxx/commitlint-config-gitmoji.
 
 ```bash
 npm install --save-dev commitlint-config-gitmoji
