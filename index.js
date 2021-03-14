@@ -30,7 +30,7 @@ async function getConfig() {
     skipQuestions: [],
     subjectMaxLength: 75,
     subjectMinLength: 2,
-    conventional: false
+    conventional: true
   }
 
   const config =
