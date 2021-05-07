@@ -18,12 +18,13 @@
 **全局**
 
 ```bash
-npm install --global g-cz-emoji
+npm install --global commitizen g-cz-emoji
+
+# 推荐配置
+echo '{ "path": "g-cz-emoji", "config": { "g-cz-emoji": { "skipQuestions": [ "issues", "body" ] } } }' > ~/.czrc
 
 # 设置为项目的默认适配器
 echo '{ "path": "g-cz-emoji" }' > ~/.czrc
-# 作者的配置
-echo '{ "path": "g-cz-emoji", "config": { "g-cz-emoji": { "skipQuestions": [ "issues", "body" ] } } }' > ~/.czrc
 ```
 
 **本地**
