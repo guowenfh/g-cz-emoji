@@ -50,7 +50,7 @@ function getEmojiChoices({ types, symbol }) {
   return types.map(choice => ({
     name: `${pad(choice.name, maxNameLength)}  ${choice.emoji}  ${choice.description}`,
     value: {
-      emoji: symbol ? `${choice.emoji} ` : choice.code,
+      emoji: symbol ? `${choice.emoji}` : choice.code,
       name: choice.name
     },
     code: choice.code
@@ -121,9 +121,10 @@ function createQuestions(config) {
           : '写一个简短的描述:',
       maxLength: config.subjectMaxLength,
       validate: function(value) {
-        const arr = value.split(' ');
+        const [type, emoji,...args] = value.split(' ');
+        const content = args.join('')
         const minLength = config.subjectMinLength;
-        if (arr && arr.length > 1 && arr[arr.length - 1].length > minLength) {
+        if (content.length >= minLength) {
           return true;
         }
         const message = minLength > 1 ? `，长度不少于${minLength}` : '';
